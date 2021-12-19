@@ -2,9 +2,9 @@ function Change_SystemBody (List)
 {
     let Path;
     if (List.value != "")
-        Path = "Images/" + List.value + ".jpg";
+        Path = "images/" + List.value + ".jpg";
     else
-        Path = "Images/Solar System.jpg";
+        Path = "images/Solar System.jpg";
 
     document.getElementById("Image").src = Path;
     HumanMass_KeyUp (Human_Mass);
